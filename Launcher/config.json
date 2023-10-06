@@ -49,7 +49,7 @@
   "symbol-tick-limit": 10000,
 
   // log missing data files, useful for debugging
-  "show-missing-data-logs": false,
+  "show-missing-data-logs": true,
 
   // For live trading during warmup we limit the amount of historical data fetched from the history provider and expect the data to be on disk for older data
   "maximum-warmup-history-days-look-back": 5,
